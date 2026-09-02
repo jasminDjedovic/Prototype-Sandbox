@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Connected home dashboard</title><link rel="stylesheet" href="styles.css" /></head>
+  <body class="prototype-page home-page">
+    <main class="prototype-wrap home-wrap">
+      <nav class="prototype-nav"><a href="index.html">← All concepts</a><span class="prototype-index">POC / 11</span></nav>
+      <section class="home-shell">
+        <header class="home-header"><div><p class="eyebrow-mono">nestOS / connected home</p><h1>Good evening, developer.</h1></div><span class="home-weather">26° / HK</span></header>
+        <div class="home-grid"><div class="device-card"><span>☼</span><strong>Kitchen lights</strong><small class="online">Online</small></div><div class="device-card"><span>◒</span><strong>Coffee machine</strong><small class="online">Online</small></div><div class="device-card"><span>◉</span><strong>Sleep schedule</strong><small class="offline">Offline</small></div><div class="device-card new-device" data-new-device><span>?</span><strong>Unknown device</strong><small>Scanning…</small></div></div>
+        <button class="button home-scan" data-home-scan>Scan for new devices</button>
+        <div class="home-reveal" data-home-reveal aria-live="polite"><span>NEW DEVICE FOUND</span><h2>Baby monitor</h2><p>Provisioning begins soon.<br />Household capacity increased by 1.</p></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Client name / puzzle</title><link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="prototype-page puzzle-page">
+    <main class="prototype-wrap">
+      <nav class="prototype-nav"><a href="index.html">← All concepts</a><span class="prototype-index">POC / 03</span></nav>
+      <section class="puzzle-frame">
+        <span class="puzzle-tag">state management test / v0.3</span>
+        <h1>Who is my new primary client?</h1>
+        <p class="intro">Enter the name of the newest account in the pipeline. There may be clues. There may also be a three-attempt limit.</p>
+        <div class="puzzle-hints"><span>Arriving spring 2027</span><span>Weighs less than a laptop</span><span>High maintenance</span></div>
+        <form class="puzzle-form" data-puzzle-form><input data-puzzle-input aria-label="Your guess" required placeholder="enter your guess" /><button class="button" type="submit">Guess</button></form>
+        <p class="attempts" data-attempts>Attempt 0 / 3</p>
+        <div class="puzzle-reveal" data-puzzle-reveal aria-live="polite"><div class="sparkle">✦ ✧ ✦</div><h2>Incorrect.<br />The answer is Baby Djedovic Cheng!</h2><p>New client onboarding begins March 31, 2027.</p></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

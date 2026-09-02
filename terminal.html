@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>server-monitor / terminal</title><link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="prototype-page terminal-page">
+    <main class="terminal-wrap">
+      <nav class="prototype-nav terminal-nav"><a href="index.html">← All concepts</a><span>POC / 02</span></nav>
+      <section class="terminal-frame">
+        <div class="terminal-title"><b>server-monitor@new-project: ~</b><span>● connected</span></div>
+        <div class="terminal-output" data-terminal-output>
+          <div class="terminal-line dim">Welcome to server-monitor CLI v0.7.3</div>
+          <div class="terminal-line dim">Type a command to inspect the latest build.</div>
+        </div>
+        <form class="terminal-form" data-terminal-form>
+          <span>&gt;</span><input data-terminal-input aria-label="Terminal command" autocomplete="off" autofocus placeholder="type run and press enter" /><button hidden type="submit">Run</button>
+        </form>
+        <p class="terminal-hint">Try: run · status · deploy</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
